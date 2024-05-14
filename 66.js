@@ -14,8 +14,8 @@ var plusOne = function (digits) {
   }
 
   if (digits[0] == 10) {
-    digits.splice(1, 0, 0);
-    digits[0] = 1;
+    digits[0] = 0;
+    digits.unshift(1);
   }
 
   return digits;
