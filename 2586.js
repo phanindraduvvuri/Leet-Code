@@ -22,6 +22,7 @@ var checkVowelString = function (word) {
   return vowels.includes(firstChar) && vowels.includes(lastChar);
 };
 
+/* Running the program with test cases */
 let testCases = [
   [["are", "amy", "u"], 0, 2],
   [["hey", "aeo", "mu", "ooo", "artro"], 1, 4],

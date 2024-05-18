@@ -21,6 +21,7 @@ var findWordsContaining = function (words, x) {
   return indexArray;
 };
 
+/* Running the program with test cases */
 let words = ["abc", "bcd", "aaaa", "cbc"],
   x = "z";
 

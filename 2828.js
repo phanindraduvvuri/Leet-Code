@@ -7,6 +7,7 @@ var isAcronym = function (words, s) {
   return words.map((word) => word[0]).reduce((a, b) => a + b) == s;
 };
 
+/* Running the program with test cases */
 let testCases = [
   [["alice", "bob", "charlie"], "abc"],
   [["an", "apple"], "a"],

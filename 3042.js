@@ -32,6 +32,7 @@ var countPrefixSuffixPairs = function (words) {
   return count;
 };
 
+/* Running the program with test cases */
 let testCases = [
   ["a", "aba", "ababa", "aa"],
   ["pa", "papa", "ma", "mama"],

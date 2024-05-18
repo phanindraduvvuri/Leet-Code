@@ -44,6 +44,7 @@ var isPalindrome = function (s) {
   return palindromString.join("") == palindromString.reverse().join("");
 };
 
+/* Running the program with test cases */
 let testCases = ["A man, a plan, a canal: Panama", "race a car", " ", "0P"];
 
 testCases.forEach((testCase) => console.log(isPalindrome(testCase)));

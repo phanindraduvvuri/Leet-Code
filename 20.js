@@ -49,6 +49,7 @@ var isValid = function (s) {
   return stack.length > 0 ? false : true;
 };
 
+/* Running the program with test cases */
 let testCases = ["()", "()[]{}", "(]", "{[(]}", "(", "((("];
 
 testCases.forEach((testCase) => console.log(isValid(testCase)));
