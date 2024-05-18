@@ -10,6 +10,7 @@ var splitWordsBySeparator = function (words, separator) {
   return res.filter((word) => word.length > 0);
 };
 
+/* ========================================================================== */
 /* Running the program with test cases */
 let testCases = [
   [["one.two.three", "four.five", "six"], "."],
