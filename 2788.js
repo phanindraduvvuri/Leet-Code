@@ -5,7 +5,10 @@
  */
 var splitWordsBySeparator = function (words, separator) {
   let res = [];
-  words.map((word) => res.push(...word.split(separator)));
+
+  for (let i = 0; i < words.length; i++) {
+    res.push(...words[i].split(separator));
+  }
 
   return res.filter((word) => word.length > 0);
 };
@@ -13,8 +16,8 @@ var splitWordsBySeparator = function (words, separator) {
 /* ========================================================================== */
 /* Running the program with test cases */
 let testCases = [
-  [["one.two.three", "four.five", "six"], "."],
-  [["$easy$", "$problem$"], "$"],
+  [[".one.two.three", "four.five", "six"], "."],
+  [["$easy$", "$problem$"], "$"], // ["", "easy", ""]
   [["|||"], "|"],
 ];
 
